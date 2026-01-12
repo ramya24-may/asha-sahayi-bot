@@ -1,22 +1,22 @@
-# ASHA SAHAYI BOT 🤖
+ASHA SAHAYI BOT 
 
-## Overview
+Overview
 ASHA Sahayi Bot is a Telegram-based health assistance chatbot designed to support ASHA (Accredited Social Health Activist) workers in India.  
 The bot provides **general health information**, **patient visit logging**, and **multilingual support** while strictly following ethical medical guidelines.
 
 > Disclaimer: This bot does NOT provide medical diagnosis or prescriptions. It is for educational and informational purposes only.
 
 
-## Key Features
-- 🩺 General health information (WHO / Indian health guidelines)
-- 🚨 Emergency detection with immediate alerts
-- 📝 Patient visit logging with SQLite database
-- 📊 ASHA worker statistics (visits & unique patients)
-- 🌐 Multilingual support (English & Hindi)
-- 🔒 Privacy-first (local database, no cloud storage)
+Key Features
+- General health information (WHO / Indian health guidelines)
+- Emergency detection with immediate alerts
+- Patient visit logging with SQLite database
+- ASHA worker statistics (visits & unique patients)
+- Multilingual support (English & Hindi)
+- Privacy-first (local database, no cloud storage)
 
 
-## Technologies Used
+Technologies Used
 - Python 3.x
 - python-telegram-bot
 - Google Gemini API (Generative AI)
@@ -24,7 +24,7 @@ The bot provides **general health information**, **patient visit logging**, and 
 - nest-asyncio
 
 
-## Bot Commands
+Bot Commands
 - `/start` – Welcome & instructions
 - `/ask <question>` – Ask general health questions
 - `/log_visit` – Log a patient visit
@@ -34,27 +34,27 @@ The bot provides **general health information**, **patient visit logging**, and 
 - `/disclaimer` – Medical disclaimer
 
 
-## How to Run the Bot
+How to Run the Bot
 
-## 1. Install dependencies
+1. Install dependencies
 
 
-## 2. Add API Keys
+2. Add API Keys
 Edit `bot.py` and add:
 - Telegram Bot Token (from @BotFather)
 - Gemini API Key (optional – fallback system available)
 
-## 3. Run the bot
+3. Run the bot
 
 
-## Ethical & Safety Considerations
+Ethical & Safety Considerations
 - No diagnosis or prescription
 - Emergency cases are redirected to official helplines (108)
 - Medical disclaimer shown to users
 - Designed strictly for educational use
 
 
-## Project Purpose
+Project Purpose
 This project was developed as part of an **internship evaluation task** to demonstrate:
 - Backend development
 - Conversational bot design
@@ -62,8 +62,9 @@ This project was developed as part of an **internship evaluation task** to demon
 - Healthcare-aware system design
 
 
-## Author
+Author
 Developed by: Pinnamareddy Ramya Sri  
 Role: B.Tech 2nd year Student / Software Engineering Intern Applicant
+
 
 
